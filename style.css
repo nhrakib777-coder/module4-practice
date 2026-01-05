@@ -1,0 +1,115 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.dancing-script-uniquifier {
+  font-family: 'Dancing Script', cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+  background-color: rgba(255, 38, 255, 0.226);
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(248, 80, 248, 0.199);
+  padding: 0;
+  margin: 0;
+  
+}
+
+.logo {
+  /* position: relative;
+  left: -80px;
+  top: 0;
+  margin: 0; */
+  margin: 0 50px;
+}
+
+.logo a {
+  color: #b6019e;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 800;
+  text-shadow: 5px 5px 10px rgba(255, 38, 255, 0.884);
+}
+
+.search-box {
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  /* justify-content: right; */
+  right: 0;
+  width: 320px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  /* margin: 0 10px; */
+  padding: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-right: auto;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 50px;
+  background: none;
+}
+
+.search-box button {
+  background: #b6019e;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+.search-box button:hover {
+  background: #a0018b;
+}
+
+/* .search-box {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+} */
+/* login button */
+.login{
+  margin: 50px;
+}
+
+.login #login_btn{
+  background: none;
+  border: none;
+}
+
+.login #login_btn i{
+  padding: 5px;
+  font-size: 20px;
+  color: #b6019e;
+ background: rgba(255, 255, 255, 0.15);
+ text-shadow: 5px 5px 10px rgb(255, 38, 255);
+ cursor: pointer;
+}
